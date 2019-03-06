@@ -4,7 +4,7 @@ This is the home of Imagenette: a subset of 10 easily classified classes from Im
 
 'Imagenette' is pronounced just like 'Imagenet', except with a corny inauthentic French accent. If you've seen Peter Sellars in The Pink Panther, then think something like that. It's important to ham up the accent as much as possible, otherwise people might not be sure whether you're refering to "Imagenette" or "Imagenet". (*Note to native French speakers: to avoid confusion, be sure to use a corny inauthentic American accent when saying "Imagenet". Think something like the [philosophy restaurant skit](https://www.youtube.com/watch?v=oa0bCzwSNA0) from Monty Python's The Meaning of Life.*)
 
-Here are the datasets: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagenette.tgz) [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette-320.tgz) [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette-160.tgz). The '320 px' and '160 px' versions have their shortest size resized to that size, with their aspect ratio maintained.
+Here are the datasets: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagenette.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette-160.tgz). The '320 px' and '160 px' versions have their shortest size resized to that size, with their aspect ratio maintained.
 
 ## Why Imagenette?
 
