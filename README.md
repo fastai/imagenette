@@ -6,6 +6,8 @@ This is the home of Imagenette: a subset of 10 easily classified classes from Im
 
 Here are the datasets: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagenette.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette-160.tgz). The '320 px' and '160 px' versions have their shortest size resized to that size, with their aspect ratio maintained.
 
+Too easy for you? In that case, you might want to try Imagewoof, a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. Here they are: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof-160.tgz).
+
 ## Why Imagenette?
 
 I (Jeremy Howard, that is) mainly made Imagenette because I wanted a small vision dataset I could use to quickly see if my algorithm ideas might have a chance of working. They normally don't, but testing them on Imagenet takes a really long time for me to find that out, especially because I'm interested in algorithms that perform particularly well at the *end* of training.
@@ -15,10 +17,11 @@ But I think this can be a useful dataset for others as well.
 ### For researchers
 
 - Try to create a classifier that's as accurate as possible under various constraints (we'll keep leaderboards below, submit your PR with a link to your repo or gist!), such as:
-  - Within a certain number of epochs: 5, 10, 30, 60
+  - Within a certain number of epochs: 5, 15, 40, 90
   - Within a certain budget on AWS or GCP (use spot or interruptible instances to save money): $0.05, $0.10, $0.25, $0.50, $1.00, $2.00
 - Experiment with other low resource problems like transfer learning from small datasets, using semi-supervised learning to help classify small datasets, etc
 - Test the impact of using different sized images, either separately, or together as part of training (i.e. progressive resizing)
+- Compare your algorithm on easy vs hard small datasets, which are otherwise very similar (Imagenette vs Imagewoof)
 
 ### For students
 
@@ -33,6 +36,6 @@ But I think this can be a useful dataset for others as well.
 
 ## Leaderboard
 
-### 30 epoch max
+### 160px: 40 epoch max
 
-- See examples/train_imagenette.py in the fastai repo for an example that you should be able to get close to 90% top 1! (Jeremy just hit that mark; he'll share his script soon.)
+- See examples/train_imagenette.py in the fastai repo for an example that you should be able to get close to 90% top 1! (Jeremy just hit 92%; he'll share his script soon.)
