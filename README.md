@@ -43,5 +43,6 @@ But I think this can be a useful dataset for others as well.
 ## Leaderboard
 
 ### 160px: 40 epoch max
-
 - See examples/train_imagenette.py in the fastai repo for an example that you should be able to get close to 90% top 1! (Jeremy just hit 92%; he'll share his script soon.)
+
+- [hasibzunair/bonjour](https://github.com/hasibzunair/bonjour) - Imagenette Top-1 accuracy of 70.39%. 
