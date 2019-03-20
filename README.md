@@ -41,8 +41,7 @@ where `path` now stores the destination to ImageNette-160.
 ### For students
 
 - Practice your modeling skills on a dataset that's very similar to Imagenet, but much less expensive to deal with
-
-...send me a PR with your other applications for this dataset!...
+- Do send me a PR with your other applications for this dataset!
 
 ## Tips
 
@@ -53,4 +52,6 @@ where `path` now stores the destination to ImageNette-160.
 
 ### 160px: 40 epoch max
 
-- See examples/train_imagenette.py in the fastai repo for an example that you should be able to get close to 90% top 1! (Jeremy just hit 92%; he'll share his script soon.)
+- See [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) in the fastai repo for an example that you should be able to get close to 90% top 1! 
+
+Coming soon: Top-1 92% Accuracy
