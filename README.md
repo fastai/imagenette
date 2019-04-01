@@ -18,11 +18,11 @@ Too easy for you? In that case, you might want to try **Imagewoof**, a subset of
 
 I (Jeremy Howard, that is) mainly made Imagenette because I wanted a small vision dataset I could use to quickly see if my algorithm ideas might have a chance of working. They normally don't, but testing them on Imagenet takes a really long time for me to find that out, especially because I'm interested in algorithms that perform particularly well at the *end* of training.
 
-But I think this can be a useful dataset for others as well
+But I think this can be a useful dataset for others as well.
 
 ## Usage
 
-If you are already using the fastai library, you can _download and access_ these quickly with commands like:
+If you are already using the [fastai library](https://docs.fast.ai), you can _download and access_ these quickly with commands like:
 ```python
 path = untar_data(URLs.IMAGENETTE_160)
 ```
@@ -36,7 +36,7 @@ where `path` now stores the destination to ImageNette-160.
 - Experiment with other low resource problems like transfer learning from small datasets, using semi-supervised learning to help classify small datasets, etc
 - Test the impact of using different sized images, either separately, or together as part of training (i.e. progressive resizing)
 - Compare your algorithm on easy vs hard small datasets, which are otherwise very similar (Imagenette vs Imagewoof)
-- Mark ImageNet Finetuning results separately. This is because simple models like ResNet18 can be finetuned to 95%+ val accuracy in 5 epochs or less.
+- Ensure that you start from random weights - not from pretrained weights.
 
 ### For students
 
