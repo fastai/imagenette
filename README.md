@@ -31,7 +31,7 @@ where `path` now stores the destination to ImageNette-160.
 ### For researchers
 
 - Try to create a classifier that's as accurate as possible under various constraints (we'll keep leaderboards below, submit your PR with a link to your repo or gist!), such as:
-  - Within a certain number of epochs: 5, 15, 40, 90
+  - Within a certain number of epochs: 5, 20, 40, 160
   - Within a certain budget on AWS or GCP (use spot or interruptible instances to save money): $0.05, $0.10, $0.25, $0.50, $1.00, $2.00
 - Experiment with other low resource problems like transfer learning from small datasets, using semi-supervised learning to help classify small datasets, etc
 - Test the impact of using different sized images, either separately, or together as part of training (i.e. progressive resizing)
@@ -50,8 +50,64 @@ where `path` now stores the destination to ImageNette-160.
 
 ## Leaderboard
 
+Generally you'll see +/- 1% differences from run to run since it's quite a small validation set. So please only send in contributions that are higher than the reported accuracy >80% of the time.
+
+### Imagenette
+
+### 128px: 20 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| 92.0 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 3e-3 --mixup 0` |
+
+### 192px: 20 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 224px: 20 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+----
+
+### 128px: 40 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| 91.2 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 3e-3` |
+
+### 192px: 40 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 224px: 40 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### Imagewoof
+
 ### 160px: 40 epoch max
 
-- See [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) in the fastai repo for an example that you should be able to get close to 90% top 1! 
+| Accuracy | URL | Params |
+|--|--|--|
+| 84.2 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 3e-3 --woof 1` |
 
-Coming soon: Top-1 92% Accuracy
+### 192px: 40 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 224px: 40 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
