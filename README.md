@@ -78,7 +78,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Accuracy | URL | Params |
 |--|--|--|
-| 91.2 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 3e-3` |
+| 91.8 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 2e-3 --mixup 0` |
 
 ### 192px: 40 epoch max
 
