@@ -56,61 +56,61 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### 160px: 5 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| 78.8 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 1e-3 --mixup 0` | 2 GPUs |
 
 ### 192px: 5 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ### 224px: 5 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ----
 
 ### 128px: 20 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| 92.0 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| 92.0 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 GPUs |
 
 ### 192px: 20 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ### 224px: 20 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ----
 
 ### 128px: 40 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| 91.8 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 2e-3 --mixup 0` |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| 91.8 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 2e-3 --mixup 0` | 2 GPUs |
 
 ### 192px: 40 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ### 224px: 40 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ----
 
@@ -118,58 +118,58 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### 160px: 5 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| 51.6 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 1e-3 --mixup 0 --woof 1` | 2 GPUs |
 
 ### 192px: 5 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
 | NA | NA | NA |
 
 ### 224px: 5 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ----
 
 ### 160px: 20 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| 75.4 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 2e-3 --woof 1 --mixup 0` |
 
 ### 192px: 20 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ### 224px: 20 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ----
 
 ### 160px: 40 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| 84.2 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 3e-3 --woof 1` |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| 84.2 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 3e-3 --woof 1` | 2 GPUs |
 
 ### 192px: 40 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
 
 ### 224px: 40 epoch max
 
-| Accuracy | URL | Params |
-|--|--|--|
-| NA | NA | NA |
+| Accuracy | URL | Params | Notes |
+|--|--|--|--|
+| NA | NA | NA | NA |
