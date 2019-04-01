@@ -66,7 +66,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |--|--|--|--|
 | NA | NA | NA | NA |
 
-### 224px: 5 epoch max
+### 256px: 5 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
@@ -86,7 +86,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |--|--|--|--|
 | NA | NA | NA | NA |
 
-### 224px: 20 epoch max
+### 256px: 20 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
@@ -106,7 +106,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |--|--|--|--|
 | NA | NA | NA | NA |
 
-### 224px: 40 epoch max
+### 256px: 40 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
@@ -116,7 +116,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Imagewoof
 
-### 160px: 5 epoch max
+### 128px: 5 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
@@ -128,7 +128,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |--|--|--|--|
 | NA | NA | NA |
 
-### 224px: 5 epoch max
+### 256px: 5 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
@@ -136,7 +136,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ----
 
-### 160px: 20 epoch max
+### 128px: 20 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
@@ -148,7 +148,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |--|--|--|--|
 | NA | NA | NA | NA |
 
-### 224px: 20 epoch max
+### 256px: 20 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
@@ -156,7 +156,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ----
 
-### 160px: 40 epoch max
+### 128px: 40 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
@@ -168,7 +168,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |--|--|--|--|
 | NA | NA | NA | NA |
 
-### 224px: 40 epoch max
+### 256px: 40 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
