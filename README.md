@@ -58,7 +58,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Accuracy | URL | Params |
 |--|--|--|
-| 92.0 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 3e-3 --mixup 0` |
+| 92.0 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` |
 
 ### 192px: 20 epoch max
 
@@ -93,6 +93,26 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 | NA | NA | NA |
 
 ### Imagewoof
+
+### 160px: 20 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 192px: 20 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 224px: 20 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+----
 
 ### 160px: 40 epoch max
 
