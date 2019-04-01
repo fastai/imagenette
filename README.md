@@ -54,6 +54,26 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Imagenette
 
+### 160px: 5 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 192px: 5 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 224px: 5 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+----
+
 ### 128px: 20 epoch max
 
 | Accuracy | URL | Params |
@@ -92,7 +112,29 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |--|--|--|
 | NA | NA | NA |
 
+----
+
 ### Imagewoof
+
+### 160px: 5 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 192px: 5 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+### 224px: 5 epoch max
+
+| Accuracy | URL | Params |
+|--|--|--|
+| NA | NA | NA |
+
+----
 
 ### 160px: 20 epoch max
 
