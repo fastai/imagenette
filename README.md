@@ -54,7 +54,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Imagenette
 
-### 160px: 5 epoch max
+### 128px: 5 epoch max
 
 | Accuracy | URL | Params | Notes |
 |--|--|--|--|
