@@ -66,7 +66,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 | 128 | 20 | 92.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 GPUs |
 | 192 | 20 | NA | NA | NA | NA |
 | 256 | 20 | NA | NA | NA | NA |
-| 128 | 80 | NA | NA | NA | NA |
+| 128 | 80 | 93.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50` | (4 GPUs; w/o mixup acc is 93.6) |
 | 192 | 80 | NA | NA | NA | NA |
 | 256 | 80 | NA | NA | NA | NA |
 | 128 | 400 | 94.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50` | (4 GPUs; w/o mixup acc is 94.2) |
