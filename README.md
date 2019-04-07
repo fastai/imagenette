@@ -60,10 +60,29 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | Accuracy | URL | Params | Notes |
 |--|--|--|--|--|--|
-| 128 | 5 | 81.6 | [examp4es/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 4e-3 --mixup 0` | 2 GPUs |
+| 128 | 5 | 81.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 4e-3 --mixup 0` | 2 GPUs |
 | 192 | 5 | NA | NA | N4 | NA |
 | 256 | 5 | NA | NA | N4 | NA |
-| 128 | 20 | 92.0 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 GPUs |
+| 128 | 20 | 92.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 GPUs |
+| 192 | 20 | NA | NA | NA | NA |
+| 256 | 20 | NA | NA | NA | NA |
+| 128 | 80 | NA | NA | NA | NA |
+| 192 | 80 | NA | NA | NA | NA |
+| 256 | 80 | NA | NA | NA | NA |
+| 128 | 400 | 94.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50` | (4 GPUs; w/o mixup acc is 94.2) |
+| 192 | 400 | NA | NA | NA | NA |
+| 256 | 400 | NA | NA | NA | NA |
+
+----
+
+### Imagewoof
+
+| Size (px) | Epochs | Accuracy | URL | Params | Notes |
+|--|--|--|--|--|--|
+| 128 | 5 | 51.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 1e-3 --mixup 0 --woof 1` | 2 GPUs |
+| 192 | 5 | NA | NA | N4 | NA |
+| 256 | 5 | NA | NA | N4 | NA |
+| 128 | 20 | | 75.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 2e-3 --woof 1 --mixup 0` |
 | 192 | 20 | NA | NA | NA | NA |
 | 256 | 20 | NA | NA | NA | NA |
 | 128 | 80 | NA | NA | NA | NA |
@@ -72,65 +91,6 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 | 128 | 400 | NA | NA | NA | NA |
 | 192 | 400 | NA | NA | NA | NA |
 | 256 | 400 | NA | NA | NA | NA |
-
-----
-
-### Imagewoof
-
-### 128px: 5 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| 51.6 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 1e-3 --mixup 0 --woof 1` | 2 GPUs |
-
-### 192px: 5 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA |
-
-### 256px: 5 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-----
-
-### 128px: 20 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| 75.4 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 2e-3 --woof 1 --mixup 0` |
-
-### 192px: 20 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-### 256px: 20 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-----
-
-### 128px: 40 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| 84.2 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 3e-3 --woof 1` | 2 GPUs |
-
-### 192px: 40 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-### 256px: 40 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
+| 128 | 400 | 86.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50 --woof 1` | (4 GPUs; w/o mixup acc is 84.6) |
+| 192 | 400 | NA | NA | NA | NA |
+| 256 | 400 | NA | NA | NA | NA |
