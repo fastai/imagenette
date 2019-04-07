@@ -50,67 +50,28 @@ where `path` now stores the destination to ImageNette-160.
 
 ## Leaderboard
 
-Generally you'll see +/- 1% differences from run to run since it's quite a small validation set. So please only send in contributions that are higher than the reported accuracy >80% of the time.
+Generally you'll see +/- 1% differences from run to run since it's quite a small validation set. So please only send in contributions that are higher than the reported accuracy >80% of the time. Here's the rules:
+
+- No inference time tricks, e.g. no: TTA, validation size > train size
+- Must start with random weights
+- Must be one of the size/#epoch combinations listed in the table
 
 ### Imagenette
 
-### 128px: 5 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| 81.6 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 4e-3 --mixup 0` | 2 GPUs |
-
-### 192px: 5 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-### 256px: 5 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-----
-
-### 128px: 20 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| 92.0 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 GPUs |
-
-### 192px: 20 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-### 256px: 20 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-----
-
-### 128px: 40 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| 91.8 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 40 --bs 128 --lr 2e-3 --mixup 0` | 2 GPUs |
-
-### 192px: 40 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
-
-### 256px: 40 epoch max
-
-| Accuracy | URL | Params | Notes |
-|--|--|--|--|
-| NA | NA | NA | NA |
+| Size (px) | Epochs | Accuracy | URL | Params | Notes |
+|--|--|--|--|--|--|
+| 128 | 5 | 81.6 | [examp4es/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 4e-3 --mixup 0` | 2 GPUs |
+| 192 | 5 | NA | NA | N4 | NA |
+| 256 | 5 | NA | NA | N4 | NA |
+| 128 | 20 | 92.0 | [examples/train_imagenette.py](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 GPUs |
+| 192 | 20 | NA | NA | NA | NA |
+| 256 | 20 | NA | NA | NA | NA |
+| 128 | 80 | NA | NA | NA | NA |
+| 192 | 80 | NA | NA | NA | NA |
+| 256 | 80 | NA | NA | NA | NA |
+| 128 | 400 | NA | NA | NA | NA |
+| 192 | 400 | NA | NA | NA | NA |
+| 256 | 400 | NA | NA | NA | NA |
 
 ----
 
