@@ -88,9 +88,6 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 | 128 | 80 | NA | NA | NA | NA |
 | 192 | 80 | NA | NA | NA | NA |
 | 256 | 80 | NA | NA | NA | NA |
-| 128 | 400 | NA | NA | NA | NA |
-| 192 | 400 | NA | NA | NA | NA |
-| 256 | 400 | NA | NA | NA | NA |
 | 128 | 400 | 86.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50 --woof 1` | (4 GPUs; w/o mixup acc is 84.6) |
 | 192 | 400 | NA | NA | NA | NA |
 | 256 | 400 | NA | NA | NA | NA |
