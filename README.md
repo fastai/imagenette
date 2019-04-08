@@ -58,36 +58,36 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Imagenette
 
-| Size (px) | Epochs | Accuracy | URL | Params | Notes |
+| Size (px) | Epochs | Accuracy | URL | Params | GPUs |
 |--|--|--|--|--|--|
-| 128 | 5 | 84.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0` | 4 GPUs |
-| 192 | 5 | 86.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 192` | 3 GPUs |
-| 256 | 5 | 84.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 256` | 3 GPUs |
+| 128 | 5 | 84.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0` | 4 |
+| 192 | 5 | 86.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 192` | 3 |
+| 256 | 5 | 84.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 256` | 3 |
 | 128 | 20 | 92.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 GPUs |
-| 192 | 20 | 93.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 192` | 3 GPUs |
-| 256 | 20 | 93.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 256` | 3 GPUs |
-| 128 | 80 | 94.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 GPUs |
-| 192 | 80 | 95.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 192` | 3 GPUs |
-| 256 | 80 | 95.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 256` | 3 GPUs |
-| 128 | 400 | 94.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 GPUs |
-| 192 | 400 | 96.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 192` | 3 GPUs |
+| 192 | 20 | 93.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 192` | 3 |
+| 256 | 20 | 93.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 256` | 3 |
+| 128 | 80 | 94.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 |
+| 192 | 80 | 95.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 192` | 3 |
+| 256 | 80 | 95.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 256` | 3 |
+| 128 | 400 | 94.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 |
+| 192 | 400 | 96.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 192` | 3 |
 | 256 | 400 | NA | NA | NA | NA |
 
 ----
 
 ### Imagewoof
 
-| Size (px) | Epochs | Accuracy | URL | Params | Notes |
+| Size (px) | Epochs | Accuracy | URL | Params | GPUs |
 |--|--|--|--|--|--|
-| 128 | 5 | 51.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 1e-3 --mixup 0 --woof 1` | 2 GPUs |
+| 128 | 5 | 51.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 1e-3 --mixup 0 --woof 1` | 2 |
 | 192 | 5 | NA | NA | N4 | NA |
 | 256 | 5 | NA | NA | N4 | NA |
-| 128 | 20 | 75.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 2e-3 --woof 1 --mixup 0` | 2 GPUs |
+| 128 | 20 | 75.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 2e-3 --woof 1 --mixup 0` | 2 |
 | 192 | 20 | NA | NA | NA | NA |
 | 256 | 20 | NA | NA | NA | NA |
-| 128 | 80 | 86.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50 --woof 1` | (4 GPUs; w/o mixup acc is 84.6) |
+| 128 | 80 | 86.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
 | 192 | 80 | NA | NA | NA | NA |
 | 256 | 80 | NA | NA | NA | NA |
-| 128 | 400 | 87.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 400 --bs 64 --lr 1e-2 --arch xresnet50 --woof 1` | (4 GPUs; with mixup acc is 85.8) |
+| 128 | 400 | 87.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `-m fastai.launch`; `--epochs 400 --bs 64 --lr 1e-2 --arch xresnet50 --woof 1` | 4 |
 | 192 | 400 | NA | NA | NA | NA |
 | 256 | 400 | NA | NA | NA | NA |
