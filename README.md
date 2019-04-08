@@ -60,7 +60,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | Accuracy | URL | Params | Notes |
 |--|--|--|--|--|--|
-| 128 | 5 | 81.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 32 --lr 4e-3 --mixup 0` | 2 GPUs |
+| 128 | 5 | 84.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0` | 4 GPUs |
 | 192 | 5 | NA | NA | N4 | NA |
 | 256 | 5 | NA | NA | N4 | NA |
 | 128 | 20 | 92.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 GPUs |
