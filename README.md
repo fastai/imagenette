@@ -71,7 +71,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 | 256 | 80 | 95.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 256` | 3 |
 | 128 | 400 | 94.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 |
 | 192 | 400 | 96.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 192` | 3 |
-| 256 | 400 | NA | NA | NA | NA |
+| 256 | 400 | 96.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 256` | 3 |
 
 ----
 
