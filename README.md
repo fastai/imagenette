@@ -81,13 +81,13 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |--|--|--|--|--|--|
 | 128 | 5 | 55.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0 --woof 1` | 2 |
 | 192 | 5 | 60.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 192` | 2 |
-| 256 | 5 | 57.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 256` | 2 |
+| 256 | 5 | 67.6 | [link](https://github.com/sdoria/SimpleSelfAttention) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 256 ` | 1 |
 | 128 | 20 | 78.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 128` | 2 |
 | 192 | 20 | 82.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 3e-3 --mixup 0.2 --woof 1 --size 192` | 4 |
-| 256 | 20 | 81.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 256` | 4 |
+| 256 | 20 | 85.7 | [link](https://github.com/sdoria/SimpleSelfAttention) | `--epochs 20 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 256` | 1 |
 | 128 | 80 | 86.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
 | 192 | 80 | 87.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 3e-3 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
-| 192 | 80 | 89.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 3e-3 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
+| 256 | 80 | 89.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 3e-3 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
 | 128 | 400 | 87.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 -mixup 0.2 --arch xresnet50 --woof 1` | 4 |
 | 192 | 400 | 89.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 1 --size 192` | 4 |
 | 256 | 400 | 90.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 1 --size 256` | 4 |
