@@ -60,10 +60,10 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | Accuracy | URL | Params | GPUs |
 |--|--|--|--|--|--|
-| 128 | 5 | 84.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0` | 4 |
-| 192 | 5 | 86.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 192` | 3 |
-| 256 | 5 | 84.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 256` | 3 |
-| 128 | 20 | 92.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 128 --lr 3e-3 --mixup 0` | 2 |
+| 128 | 5 | 89.48 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
+| 192 | 5 | 90.68 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
+| 256 | 5 | 90.36 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
+| 128 | 20 | 93.8 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
 | 192 | 20 | 93.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 192` | 3 |
 | 256 | 20 | 93.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 256` | 3 |
 | 128 | 80 | 94.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 |
@@ -80,9 +80,9 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 | Size (px) | Epochs | Accuracy | URL | Params | GPUs |
 |--|--|--|--|--|--|
 | 128 | 5 | 74.97 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
-| 192 | 5 | 60.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 192` | 1 |
-| 256 | 5 | 67.6 | [link](https://github.com/sdoria/SimpleSelfAttention) | `--epochs 5 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 256 ` | 1 |
-| 128 | 20 | 78.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 128` | 2 |
+| 192 | 5 | 76.52 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 38e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
+| 256 | 5 | 74.92 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
+| 128 | 20 | 84.52 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--woof 1 --size 128 --bs 64 --mixup 0 --epoch 20 --lr 35e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1` | 1 |
 | 192 | 20 | 82.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 3e-3 --mixup 0.2 --woof 1 --size 192` | 4 |
 | 256 | 20 | 85.7 | [link](https://github.com/sdoria/SimpleSelfAttention) | `--epochs 20 --bs 64 --lr 3e-3 --mixup 0 --woof 1 --size 256` | 1 |
 | 128 | 80 | 86.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
