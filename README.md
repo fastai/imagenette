@@ -64,8 +64,8 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 | 192 | 5 | 90.68 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
 | 256 | 5 | 90.36 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
 | 128 | 20 | 93.8 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
-| 192 | 20 | 93.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 192` | 3 |
-| 256 | 20 | 93.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 20 --bs 64 --lr 1e-2 --mixup 0 --woof 0 --size 256` | 3 |
+| 192 | 20 | 94.64 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
+| 256 | 20 | 94.68 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1  | 1 |
 | 128 | 80 | 94.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 |
 | 192 | 80 | 95.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 192` | 3 |
 | 256 | 80 | 95.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 256` | 3 |
