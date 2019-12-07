@@ -6,13 +6,19 @@
 >
 > (Imagenette theme song thanks to [Samuel Finlayson](https://twitter.com/IAmSamFin/status/1103737947004854272))
 
+----
+
+**NB:** The Imagenette and Imagewoof datasets have just (Dec 6 2019) changed. They now have a 70/30 train/valid split. The old versions (which have a much smaller validation set) are still available with the same URLs, but the URLs below point to the new versions. None of the leaderboard results below have been updated yet to the new version.
+
+----
+
 This is the home of Imagenette: a subset of 10 easily classified classes from Imagenet (tench, English springer, cassette player, chain saw, church, French horn, garbage truck, gas pump, golf ball, parachute).
 
 'Imagenette' is pronounced just like 'Imagenet', except with a corny inauthentic French accent. If you've seen Peter Sellars in The Pink Panther, then think something like that. It's important to ham up the accent as much as possible, otherwise people might not be sure whether you're refering to "Imagenette" or "Imagenet". (*Note to native French speakers: to avoid confusion, be sure to use a corny inauthentic American accent when saying "Imagenet". Think something like the [philosophy restaurant skit](https://www.youtube.com/watch?v=oa0bCzwSNA0) from Monty Python's The Meaning of Life.*)
 
-Here are the datasets: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagenette.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette-160.tgz). The '320 px' and '160 px' versions have their shortest size resized to that size, with their aspect ratio maintained.
+Here are the datasets: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2-160.tgz). The '320 px' and '160 px' versions have their shortest size resized to that size, with their aspect ratio maintained.
 
-Too easy for you? In that case, you might want to try **Imagewoof**, a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. Here they are: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof-160.tgz). The breeds are: Australian terrier, Border terrier, Samoyed, Beagle, Shih-Tzu, English foxhound, Rhodesian ridgeback, Dingo, Golden retriever, Old English sheepdog. (No we will not enter in to any discussion in to whether a dingo is in fact a dog. Any suggestions to the contrary are un-Australian. Thank you for your cooperation.)
+Too easy for you? In that case, you might want to try **Imagewoof**, a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. Here they are: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-160.tgz). The breeds are: Australian terrier, Border terrier, Samoyed, Beagle, Shih-Tzu, English foxhound, Rhodesian ridgeback, Dingo, Golden retriever, Old English sheepdog. (No we will not enter in to any discussion in to whether a dingo is in fact a dog. Any suggestions to the contrary are un-Australian. Thank you for your cooperation.)
 
 ## Why Imagenette?
 
