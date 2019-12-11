@@ -20,6 +20,14 @@ Here are the datasets: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/im
 
 Too easy for you? In that case, you might want to try **Imagewoof**, a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. Here they are: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-160.tgz). The breeds are: Australian terrier, Border terrier, Samoyed, Beagle, Shih-Tzu, English foxhound, Rhodesian ridgeback, Dingo, Golden retriever, Old English sheepdog. (No we will not enter in to any discussion in to whether a dingo is in fact a dog. Any suggestions to the contrary are un-Australian. Thank you for your cooperation.)
 
+Imagewoof too easy for you too?!? Then get your hands on **Image网** (pronounced "Imagewang"; 网 means "net" in Chinese)! Here it is: Here they are: [Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagewang.tgz); [320 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewang-320.tgz); [160 px](https://s3.amazonaws.com/fast-ai-imageclas/imagewang-160.tgz). Image网 contains Imagenette and Imagewoof combined, *but* with some twists that make it into a tricky semi-supervised unbalanced classification problem:
+
+- The validation set is the same as Imagewoof (i.e. 30% of Imagewoof images); there are no Imagenette images in the validation set (they're all in the training set)
+- Only 10% of Imagewoof images are in the training set!
+- The remaining are in the `unsup` ("*unsupervised*") directory, and you *can not use their labels in training*!
+- It's even hard to type and hard to say!
+- Note that there's no leaderboard for Image网 yet, so feel free to submit your best results to get it started.
+
 ## Why Imagenette?
 
 I (Jeremy Howard, that is) mainly made Imagenette because I wanted a small vision dataset I could use to quickly see if my algorithm ideas might have a chance of working. They normally don't, but testing them on Imagenet takes a really long time for me to find that out, especially because I'm interested in algorithms that perform particularly well at the *end* of training.
