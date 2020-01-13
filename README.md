@@ -74,6 +74,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | Accuracy | URL | Params | GPUs |
 |--|--|--|--|--|--|
+| 128 | 5 | 89.98 | [link](https://github.com/ducha-aiki/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
 | 128 | 5 | 89.48 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
 | 192 | 5 | 90.68 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 192 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
 | 256 | 5 | 90.36 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 256 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
@@ -93,6 +94,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | Accuracy | URL | Params | GPUs |
 |--|--|--|--|--|--|
+| 128 | 5 | 76.0 | [link](https://github.com/ducha-aiki/Ranger-Mish-ImageWoof-5) | `--run 5 --woof 1 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 1 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72`  | 1 |
 | 128 | 5 | 74.97 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
 | 192 | 5 | 76.52 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 192 --bs 64 --mixup 0 --epoch 5 --lr 38e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
 | 256 | 5 | 74.92 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 256 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
