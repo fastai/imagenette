@@ -8,7 +8,7 @@
 
 ----
 
-**NB:** The Imagenette and Imagewoof datasets have just (Dec 6 2019) changed. They now have a 70/30 train/valid split. The old versions (which have a much smaller validation set) are still available with the same URLs, but the URLs below point to the new versions. We've also added the new Image网 dataset (see below for details). None of the leaderboard results below have been updated yet for the new datasets (this is coming very soon).
+**NB:** The Imagenette and Imagewoof datasets have recently (Dec 6 2019) changed. They now have a 70/30 train/valid split. The old versions (which have a much smaller validation set) are still available with the same URLs, but the URLs below point to the new versions. We've also added the new Image网 dataset (see below for details). The leaderboards below been updated using the new datasets, using a strong. Can you beat it?...
 
 ----
 
