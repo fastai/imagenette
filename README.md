@@ -106,3 +106,22 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |256|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|87.61%|
 |256|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|90.48%|
 |256|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|90.38%|
+
+----
+
+### Image网
+
+| Size (px) | Epochs | URL | Accuracy |
+|--|--|--|--|
+|128|5|NA|NA|
+|128|20|NA|NA|
+|128|80|NA|NA|
+|128|200|NA|NA|
+|192|5|NA|NA|
+|192|20|NA|NA|
+|192|80|NA|NA|
+|192|200|NA|NA|
+|256|5|NA|NA|
+|256|20|NA|NA|
+|256|80|NA|NA|
+|256|200|NA|NA|
