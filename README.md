@@ -72,20 +72,20 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Imagenette
 
-| Size (px) | Epochs | Accuracy | URL | Params | GPUs |
+| Size (px) | Epochs | URL | Accuracy |
 |--|--|--|--|--|--|
-| 128 | 5 | 89.48 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 192 | 5 | 90.68 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 192 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 256 | 5 | 90.36 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 256 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 128 | 20 | 93.8 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 192 | 20 | 94.64 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 192 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 256 | 20 | 94.68 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 0 --size 256 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 128 | 80 | 94.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 |
-| 192 | 80 | 95.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 192` | 3 |
-| 256 | 80 | 95.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 256` | 3 |
-| 128 | 400 | 94.6 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 128` | 3 |
-| 192 | 400 | 96.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 192` | 3 |
-| 256 | 400 | 96.8 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 0 --size 256` | 3 |
+|128|5|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|84.71%|
+|128|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|91.13%|
+|128|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|93.55%|
+|128|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.24%|
+|192|5|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|86.29%|
+|192|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|92.25%|
+|192|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.50%|
+|192|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|95.03%|
+|256|5|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|86.37%|
+|256|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|93.02%|
+|256|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.90%|
+|256|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|95.11%|
 
 ----
 
@@ -93,15 +93,4 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | Accuracy | URL | Params | GPUs |
 |--|--|--|--|--|--|
-| 128 | 5 | 74.97 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 128 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 192 | 5 | 76.52 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 192 --bs 64 --mixup 0 --epoch 5 --lr 38e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 256 | 5 | 74.92 | [link](https://github.com/lessw2020/Ranger-Mish-ImageWoof-5) | `--woof 1 --size 256 --bs 64 --mixup 0 --epoch 5 --lr 4e-3 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1`  | 1 |
-| 128 | 20 | 84.52 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--woof 1 --size 128 --bs 64 --mixup 0 --epoch 20 --lr 35e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1` | 1 |
-| 192 | 20 | 85.76 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--woof 1 --size 192 --bs 64 --mixup 0 --epoch 20 --lr 35e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1` | 1 |
-| 256 | 20 | 87.28 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--woof 1 --size 256 --bs 64 --mixup 0 --epoch 20 --lr 35e-4 --gpu 0 --opt ranger --mom .95 --sched_type flat_and_anneal --ann_start 0.72 --sa 1` | 1 |
-| 128 | 80 | 86.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 1e-2 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
-| 192 | 80 | 87.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 3e-3 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
-| 256 | 80 | 89.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 80 --bs 64 --lr 3e-3 --mixup 0.2 --arch xresnet50 --woof 1` | 4 |
-| 128 | 400 | 87.0 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 -mixup 0.2 --arch xresnet50 --woof 1` | 4 |
-| 192 | 400 | 89.4 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 1 --size 192` | 4 |
-| 256 | 400 | 90.2 | [link](https://github.com/fastai/fastai/blob/master/examples/train_imagenette.py) | `--epochs 400 --bs 64 --lr 1e-2 --mixup 0.2 --woof 1 --size 256` | 4 |
+
