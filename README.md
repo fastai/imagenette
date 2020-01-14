@@ -73,8 +73,8 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 ### Imagenette
 
 | Size (px) | Epochs | URL | Accuracy |
-|--|--|--|--|--|--|
-|128|5|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|84.71%|
+|--|--|--|--|
+|128|5|fastai2|84.71%|
 |128|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|91.13%|
 |128|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|93.55%|
 |128|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.24%|
@@ -93,4 +93,4 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | Accuracy | URL | Params | GPUs |
 |--|--|--|--|--|--|
-
+|a|a|a|a|a|a|
