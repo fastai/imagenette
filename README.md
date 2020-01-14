@@ -60,7 +60,8 @@ where `path` now stores the destination to ImageNette-160.
 ## Tips
 
 - Because there are only 10 categories, the usual "top 5 accuracy" isn't so interesting. So you should generally report top 1 accuracy when using Imagenette
-- ...more to come...
+- The best approaches to 5 epoch training often don't scale well to more epochs
+- Data augmentation like mixup tends to only help for 80+ epochs
 
 ## Leaderboard
 
