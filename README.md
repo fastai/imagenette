@@ -70,6 +70,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 - No inference time tricks, e.g. no: TTA, validation size > train size
 - Must start with random weights
 - Must be one of the size/#epoch combinations listed in the table
+- If you have the resources to do so, try to get an average of 5 runs, to get a stable comparison. Use the "# Runs" column to include this (note that `train_imagenette.py` provides a `--runs` flag to make this easy)
 
 ### Imagenette
 
@@ -117,11 +118,11 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |128|20|NA|NA|1|
 |128|80|NA|NA|1|
 |128|200|NA|NA|1|
-|192|5|NA|NA|
+|192|5|NA|NA|1|
 |192|20|NA|NA|1|
 |192|80|NA|NA|1|
 |192|200|NA|NA|1|
-|256|5|NA|NA|
+|256|5|NA|NA|1|
 |256|20|NA|NA|1|
 |256|80|NA|NA|1|
 |256|200|NA|NA|1|
