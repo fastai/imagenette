@@ -77,16 +77,16 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
-|128|5|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|84.96%|1|
-|128|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|91.13%|1|
+|128|5|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|85.10%|5, mean|
+|128|20|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|91.57%|5, mean|
 |128|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|93.55%|1|
 |128|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.24%|1|
-|192|5|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|86.29%|1|
-|192|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|92.25%|1|
+|192|5|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|86.76%|5, mean|
+|192|20|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|92.50%|5, mean|
 |192|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.50%|1|
 |192|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|95.03%|1|
-|256|5|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|86.37%|1|
-|256|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|93.02%|1|
+|256|5|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|86.85%|5, mean|
+|256|20|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|93.53%|5,  mean|
 |256|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.90%|1|
 |256|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|95.11%|1|
 
@@ -96,16 +96,16 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
-|128|5|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|73.17%|1|
-|128|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|84.83%|1|
+|128|5|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|73.37%|5, mean|
+|128|20|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|85.52%|5, mean|
 |128|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|87.20%|1|
 |128|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|87.20%|1|
-|192|5|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|73.12%|1|
-|192|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|87.15%|1|
+|192|5|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|75.94%|5, mean|
+|192|20|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|87.25%|5, mean|
 |192|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|89.21%|1|
 |192|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|89.54%|1|
-|256|5|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|75.54%|1|
-|256|20|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|87.61%|1|
+|256|5|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|76.87%|5, mean|
+|256|20|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|88.29%|5, mean|
 |256|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|90.48%|1|
 |256|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|90.38%|1|
 
