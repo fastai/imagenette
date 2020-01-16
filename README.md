@@ -71,6 +71,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 - Must start with random weights
 - Must be one of the size/#epoch combinations listed in the table
 - If you have the resources to do so, try to get an average of 5 runs, to get a stable comparison. Use the "# Runs" column to include this (note that `train_imagenette.py` provides a `--runs` flag to make this easy)
+- In the URL column include a link to a notebook, blog post, gist, or similar which explains what you did to get your result, and includes the code you used (or a link to it), including the exact commit, so that others can reproduce your result.
 
 ### Imagenette
 
