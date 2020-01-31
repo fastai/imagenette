@@ -19,9 +19,9 @@ This is the home of Imagenette: a subset of 10 easily classified classes from Im
 
 'Imagenette' is pronounced just like 'Imagenet', except with a corny inauthentic French accent. If you've seen Peter Sellars in The Pink Panther, then think something like that. It's important to ham up the accent as much as possible, otherwise people might not be sure whether you're refering to "Imagenette" or "Imagenet". (*Note to native French speakers: to avoid confusion, be sure to use a corny inauthentic American accent when saying "Imagenet". Think something like the [philosophy restaurant skit](https://www.youtube.com/watch?v=oa0bCzwSNA0) from Monty Python's The Meaning of Life.*)
 
-# Download Datasets
+## Download Datasets
 
-## Imagenette
+### Imagenette
 
 The '320 px' and '160 px' versions have their shortest size resized to that size, with their aspect ratio maintained.
 
@@ -31,7 +31,7 @@ The '320 px' and '160 px' versions have their shortest size resized to that size
 
 Too easy for you? In that case, you might want to try [Imagewoof](#imagewoof).
 
-## Imagewoof
+### Imagewoof
 
 It is a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. 
 
@@ -43,7 +43,7 @@ The breeds are: Australian terrier, Border terrier, Samoyed, Beagle, Shih-Tzu, E
 
 Imagewoof too easy for you too?!? Then get your hands on [Image网](#image网).
 
-## Image网
+### Image网
 
 It is pronounced "Imagewang"; 网 means "net" in Chinese! Image网 contains Imagenette and Imagewoof combined, *but* with some twists that make it into a tricky semi-supervised unbalanced classification problem:
 
@@ -92,7 +92,7 @@ where `path` now stores the destination to ImageNette-160.
 - The best approaches to 5 epoch training often don't scale well to more epochs
 - Data augmentation like mixup tends to only help for 80+ epochs
 
-# Leaderboard
+## Leaderboard
 
 Generally you'll see +/- 1% differences from run to run since it's quite a small validation set. So please only send in contributions that are higher than the reported accuracy >80% of the time. Here's the rules:
 
