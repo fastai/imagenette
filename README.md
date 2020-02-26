@@ -140,16 +140,18 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Image网 Leaderboard
 
+*NB (Feb 26, 2020): leaderboard results need to be recalculated, since previous version was using a pretrained model by mistake.*
+
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
-|128|5|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|40.87%| 5 |
-|128|20|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|61.15%|3|
-|128|80|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|62.18%|1|
-|128|200|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|62.03%|1|
-|192|5|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/34ab526d39b31f976bc821a4c0924db613c2f7f5/01_InpaintingImageWang/03_ImageWang_Leadboard_192.ipynb)|39.33%|5|
-|192|20|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/34ab526d39b31f976bc821a4c0924db613c2f7f5/01_InpaintingImageWang/03_ImageWang_Leadboard_192.ipynb)|64.62%|3|
-|192|80|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/34ab526d39b31f976bc821a4c0924db613c2f7f5/01_InpaintingImageWang/03_ImageWang_Leadboard_192.ipynb)|66.76%|1|
-|192|200|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/34ab526d39b31f976bc821a4c0924db613c2f7f5/01_InpaintingImageWang/03_ImageWang_Leadboard_192.ipynb)|67.12%|1|
+|128|5|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|NA| 5 |
+|128|20|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|NA|3|
+|128|80|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|NA|1|
+|128|200|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|NA|1|
+|192|5|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/34ab526d39b31f976bc821a4c0924db613c2f7f5/01_InpaintingImageWang/03_ImageWang_Leadboard_192.ipynb)|NA|5|
+|192|20|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/34ab526d39b31f976bc821a4c0924db613c2f7f5/01_InpaintingImageWang/03_ImageWang_Leadboard_192.ipynb)|NA|3|
+|192|80|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/34ab526d39b31f976bc821a4c0924db613c2f7f5/01_InpaintingImageWang/03_ImageWang_Leadboard_192.ipynb)|NA|1|
+|192|200|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/34ab526d39b31f976bc821a4c0924db613c2f7f5/01_InpaintingImageWang/03_ImageWang_Leadboard_192.ipynb)|NA|1|
 |256|5|NA|NA|1|
 |256|20|NA|NA|1|
 |256|80|NA|NA|1|
