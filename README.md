@@ -49,7 +49,6 @@ Image网 is pronounced "Imagewang"; 网 means "net" in Chinese! Image网 contain
 - Only 10% of Imagewoof images are in the training set!
 - The remaining are in the `unsup` ("*unsupervised*") directory, and you *can not use their labels in training*!
 - It's even hard to type and hard to say!
-- Note that there's no leaderboard for Image网 yet, so feel free to submit your best results to get it started.
 
 - [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang.tgz); 
 - [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang-320.tgz); 
