@@ -8,9 +8,9 @@
 
 ----
 
-**NB:** 
-- The Imagenette and Imagewoof datasets have recently (Dec 6 2019) changed. They now have a **70/30 train/valid** split. 
-- The old versions (which have a much smaller validation set) are still available with the same URLs, but the URLs below point to the new versions. 
+**NB:**
+- The Imagenette and Imagewoof datasets have recently (Dec 6 2019) changed. They now have a **70/30 train/valid** split.
+- The old versions (which have a much smaller validation set) are still available with the same URLs, but the URLs below point to the new versions.
 - We've also added the [new Image网 dataset](#image网) (see below for details). The leaderboards below been updated using the new datasets, using a strong. Can you beat it?...
 
 ----
@@ -35,9 +35,9 @@ Too easy for you? In that case, you might want to try [Imagewoof](#imagewoof).
 
 Imagewoof is a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. The breeds are: Australian terrier, Border terrier, Samoyed, Beagle, Shih-Tzu, English foxhound, Rhodesian ridgeback, Dingo, Golden retriever, Old English sheepdog. (No we will not enter in to any discussion in to whether a dingo is in fact a dog. Any suggestions to the contrary are un-Australian. Thank you for your cooperation.)
 
-- [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2.tgz); 
-- [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-320.tgz); 
-- [160 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-160.tgz). 
+- [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2.tgz);
+- [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-320.tgz);
+- [160 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-160.tgz).
 
 Imagewoof too easy for you too?!? Then get your hands on [Image网](#image网).
 
@@ -51,9 +51,9 @@ Image网 is pronounced "Imagewang"; 网 means "net" in Chinese! Image网 contain
 - It's even hard to type and hard to say!
 - Note that there's no leaderboard for Image网 yet, so feel free to submit your best results to get it started.
 
-- [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang.tgz); 
-- [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang-320.tgz); 
-- [160 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang-160.tgz). 
+- [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang.tgz);
+- [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang-320.tgz);
+- [160 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang-160.tgz).
 
 ## Why Imagenette?
 
@@ -104,6 +104,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
+|128|1|[Mobile Net with AdamW](https://github.com/SubhadityaMukherjee/imagenetteBeat/blob/master/IMAGENETTE_160.ipynb)|87.79|5, mean|
 |128|5|[fastai2 train_imagenette.py 2020-01 (mini net)](https://github.com/pete88b/data-science/blob/master/fastai-things/train-imagenette-mininet.ipynb)|85.27%|5, mean|
 |128|20|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|91.57%|5, mean|
 |128|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|93.55%|1|
