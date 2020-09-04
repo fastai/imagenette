@@ -141,10 +141,10 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
-|128|5|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/b3ae0248d67eb7c3ceb996e496e66afa0fbc9e7d/01_ImageWang_ContrastLearning_128.ipynb)|50.78%| 5,mean|
-|128|20|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|59.02%|3,mean|
-|128|80|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|61.85%|1|
-|128|200|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|60.22%|1|
+|128|5|[BYOL](https://github.com/KeremTurgutlu/self_supervised/blob/b3ed998d1819db364b7183defba4a26c30ee0e81/nbs/byol_iwang_128.ipynb)|58.74%| 5,mean|
+|128|20|[BYOL](https://github.com/KeremTurgutlu/self_supervised/blob/b3ed998d1819db364b7183defba4a26c30ee0e81/nbs/byol_iwang_128.ipynb)|65.29%|3,mean|
+|128|80|[BYOL](https://github.com/KeremTurgutlu/self_supervised/blob/b3ed998d1819db364b7183defba4a26c30ee0e81/nbs/byol_iwang_128.ipynb)|63.98%|1|
+|128|200|[BYOL](https://github.com/KeremTurgutlu/self_supervised/blob/b3ed998d1819db364b7183defba4a26c30ee0e81/nbs/byol_iwang_128.ipynb)|64.44%|1|
 |192|5|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/02_ImageWang_ContrastLearning_final_192.ipynb)|64.81%|5,mean|
 |192|20|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/02_ImageWang_ContrastLearning_final_192.ipynb)|68.36%|3,mean|
 |192|80|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/02_ImageWang_ContrastLearning_final_192.ipynb)|68.31%|1|
