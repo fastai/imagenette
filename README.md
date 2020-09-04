@@ -141,7 +141,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
-|128|5|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|34.72%| 5,mean |
+|128|5|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/b3ae0248d67eb7c3ceb996e496e66afa0fbc9e7d/01_ImageWang_ContrastLearning_128.ipynb)|50.78%| 5,mean|
 |128|20|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|59.02%|3,mean|
 |128|80|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|61.85%|1|
 |128|200|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|60.22%|1|
