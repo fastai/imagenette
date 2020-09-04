@@ -49,7 +49,6 @@ Image网 is pronounced "Imagewang"; 网 means "net" in Chinese! Image网 contain
 - Only 10% of Imagewoof images are in the training set!
 - The remaining are in the `unsup` ("*unsupervised*") directory, and you *can not use their labels in training*!
 - It's even hard to type and hard to say!
-- Note that there's no leaderboard for Image网 yet, so feel free to submit your best results to get it started.
 
 - [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang.tgz); 
 - [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewang-320.tgz); 
@@ -140,14 +139,12 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Image网 Leaderboard
 
-*NB (Feb 26, 2020): leaderboard results need to be recalculated, since previous version was using a pretrained model by mistake.*
-
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
 |128|5|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/b3ae0248d67eb7c3ceb996e496e66afa0fbc9e7d/01_ImageWang_ContrastLearning_128.ipynb)|50.78%| 5,mean|
-|128|20|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|NA|3|
-|128|80|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|NA|1|
-|128|200|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/7d292979ae4bbf8422e710b5aeabc5131d0f83a0/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|NA|1|
+|128|20|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|59.02%|3,mean|
+|128|80|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|61.85%|1|
+|128|200|[Inpainting](https://github.com/JoshVarty/SelfSupervisedLearning/blob/2e5a68be182b8c741a1bd6c7551bc9515d4b5324/01_InpaintingImageWang/03_ImageWang_Leadboard_128.ipynb)|60.22%|1|
 |192|5|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/02_ImageWang_ContrastLearning_final_192.ipynb)|64.81%|5,mean|
 |192|20|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/02_ImageWang_ContrastLearning_final_192.ipynb)|68.36%|3,mean|
 |192|80|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/02_ImageWang_ContrastLearning_final_192.ipynb)|68.31%|1|
