@@ -149,7 +149,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |192|20|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/eeab0ae53c47a5c9c66759d9350a66963606cacb/nbs/examples/swav_iwang_192.ipynb)|74.93%|3,mean|
 |192|80|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/eeab0ae53c47a5c9c66759d9350a66963606cacb/nbs/examples/swav_iwang_192.ipynb)|73.07%|1|
 |192|200|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/eeab0ae53c47a5c9c66759d9350a66963606cacb/nbs/examples/swav_iwang_192.ipynb)|71.77%|1|
-|256|5|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/03_ImageWang_ContrastLearning_final_224.ipynb)|67.70%|5,mean|
-|256|20|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/03_ImageWang_ContrastLearning_final_224.ipynb)|70.03%|3,mean|
-|256|80|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/03_ImageWang_ContrastLearning_final_224.ipynb)|70.71%|1|
+|256|5|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/50e0c8bdd204b61ca633dcb78fa256838c22cda3/nbs/examples/swav_iwang_224.ipynb)|73.17%|5,mean|
+|256|20|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/50e0c8bdd204b61ca633dcb78fa256838c22cda3/nbs/examples/swav_iwang_224.ipynb)|76.49%|3,mean|
+|256|80|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/50e0c8bdd204b61ca633dcb78fa256838c22cda3/nbs/examples/swav_iwang_224.ipynb)|75.46%|1|
 |256|200|[ContrastiveLearning](https://github.com/WAMRI-AI/imagewang/blob/d575c7e6d531ec14ec10e545c6e672f87e3d5953/03_ImageWang_ContrastLearning_final_224.ipynb)|71.78%|1|
