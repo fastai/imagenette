@@ -23,7 +23,7 @@ Imagenette is a subset of 10 easily classified classes from Imagenet (tench, Eng
 
 'Imagenette' is pronounced just like 'Imagenet', except with a corny inauthentic French accent. If you've seen Peter Sellars in The Pink Panther, then think something like that. It's important to ham up the accent as much as possible, otherwise people might not be sure whether you're refering to "Imagenette" or "Imagenet". (*Note to native French speakers: to avoid confusion, be sure to use a corny inauthentic American accent when saying "Imagenet". Think something like the [philosophy restaurant skit](https://www.youtube.com/watch?v=oa0bCzwSNA0) from Monty Python's The Meaning of Life.*)
 
-The '320 px' and '160 px' versions have their shortest size resized to that size, with their aspect ratio maintained.
+The '320 px' and '160 px' versions have their shortest side resized to that size, with their aspect ratio maintained.
 
 - [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2.tgz)
 - [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2-320.tgz)
