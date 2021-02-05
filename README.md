@@ -33,7 +33,7 @@ Too easy for you? In that case, you might want to try [Imagewoof](#imagewoof).
 
 ### Imagewoof
 
-Imagewoof is a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. The breeds are: Australian terrier, Border terrier, Samoyed, Beagle, Shih-Tzu, English foxhound, Rhodesian ridgeback, Dingo, Golden retriever, Old English sheepdog. (No we will not enter in to any discussion in to whether a dingo is in fact a dog. Any suggestions to the contrary are un-Australian. Thank you for your cooperation.)
+Imagewoof is a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. The breeds are: Australian terrier, Border terrier, Samoyed, Beagle, Shih-Tzu, English foxhound, Rhodesian ridgeback, Dingo, Golden retriever, Old English sheepdog. (No we will not enter in to any discussion in to whether a dingo is in fact a dog. Any suggestions to the contrary are un-Australian. (Thank you for your cooperation.)
 
 - [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2.tgz); 
 - [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-320.tgz); 
