@@ -116,39 +116,45 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |256|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.90%|1|
 |256|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|95.11%|1|
 
+
+---
+
 ### Imagenette w/Label Noise = 5%
 
-Size | Epochs | URL | Accuracy | Runs
+Size | Epochs | URL | Accuracy | # Runs
 -- | -- | -- | -- | --
-128 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 0.834395 | 1
-128 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.895287 | 1
-128 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.892994 | 1
-128 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.900382 | 1
-192 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.841274 | 1
-192 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.906497 | 1
-192 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.910064 | 1
-192 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.910828 | 1
-256 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.846115 | 1
-256 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.913885 | 1
-256 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |0.915924 | 1
-256 | 200 |[baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.920255 | 1
+128 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 83.44% | 1
+128 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |89.53% | 1
+128 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 89.30% | 1
+128 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 90.04% | 1
+192 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 84.13% | 1
+192 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 90.65% | 1
+192 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 91.01% | 1
+192 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 91.08% | 1
+256 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 84.61% | 1
+256 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 91.39% | 1
+256 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 91.59% | 1
+256 | 200 |[baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 92.03% | 1
+
+
+---
 
 ### Imagenette w/Label Noise = 50%
 
-Size | Epochs | URL | Accuracy | Runs
+Size | Epochs | URL | Accuracy | # Runs
 -- | -- | -- | -- | --
-128 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.665987 | 1
-128 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.793631 | 1
-128 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.508025 | 1
-128 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.521783 | 1
-192 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.675414 | 1
-192 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.793376 | 1
-192 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.525096 | 1
-192 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.53707 | 1
-256 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.650446 | 1
-256 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.792102 | 1
-256 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.539618 | 1
-256 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.55414 | 1
+128 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 66.60% | 1
+128 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 79.36% | 1
+128 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 50.80% | 1
+128 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 52.18% | 1
+192 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 67.54% | 1
+192 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 79.34% | 1
+192 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 52.51% | 1
+192 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 53.71% | 1
+256 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 65.04% | 1
+256 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 79.21% | 1
+256 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 53.96% | 1
+256 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 55.41% | 1
 
 ----
 
