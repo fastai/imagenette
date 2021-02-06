@@ -116,6 +116,40 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 |256|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.90%|1|
 |256|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|95.11%|1|
 
+### Imagenette w/Label Noise = 5%
+
+imagewoof | size | epochs | accuracy
+-- | -- | -- | --
+0 | 128 | 5 | 0.834395
+0 | 128 | 20 | 0.895287
+0 | 128 | 80 | 0.892994
+0 | 128 | 200 | 0.900382
+0 | 192 | 5 | 0.841274
+0 | 192 | 20 | 0.906497
+0 | 192 | 80 | 0.910064
+0 | 192 | 200 | 0.910828
+0 | 256 | 5 | 0.846115
+0 | 256 | 20 | 0.913885
+0 | 256 | 80 | 0.915924
+0 | 256 | 200 | 0.920255
+
+### Imagenette w/Label Noise = 50%
+
+imagewoof | size | epochs | accuracy
+-- | -- | -- | --
+0 | 128 | 5 | 0.665987
+0 | 128 | 20 | 0.793631
+0 | 128 | 80 | 0.508025
+0 | 128 | 200 | 0.521783
+0 | 192 | 5 | 0.675414
+0 | 192 | 20 | 0.793376
+0 | 192 | 80 | 0.525096
+0 | 192 | 200 | 0.53707
+0 | 256 | 5 | 0.650446
+0 | 256 | 20 | 0.792102
+0 | 256 | 80 | 0.539618
+0 | 256 | 200 | 0.55414
+
 ----
 
 ### Imagewoof Leaderboard
