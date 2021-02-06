@@ -118,8 +118,8 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Imagenette w/Label Noise = 5%
 
-imagewoof | Size | Epochs | URL | Accuracy
--- | -- | -- | -- | --
+Size | Epochs | URL | Accuracy
+-- | -- | -- | --
 0 | 128 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.834395
 0 | 128 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) |0.895287
 0 | 128 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) |0.892994
