@@ -121,7 +121,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 ### Imagenette w/Label Noise = 5%
 
-Size | Epochs | URL | Accuracy | # Runs
+Size (px) | Epochs | URL | Accuracy | # Runs
 -- | -- | -- | -- | --
 128 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) | 83.44% | 1
 128 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/line-01-18-2021.md) |89.53% | 1
@@ -141,7 +141,7 @@ Size | Epochs | URL | Accuracy | # Runs
 
 ### Imagenette w/Label Noise = 50%
 
-Size | Epochs | URL | Accuracy | # Runs
+Size (px) | Epochs | URL | Accuracy | # Runs
 -- | -- | -- | -- | --
 128 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 66.60% | 1
 128 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 79.36% | 1
@@ -160,7 +160,7 @@ Size | Epochs | URL | Accuracy | # Runs
 
 ### Imagewoof Leaderboard
 
-| Size | Epochs | URL | Accuracy | # Runs |
+| Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
 |128|5|[depthwise(x6)](https://github.com/liuyao12/imagenette_experiments/blob/master/ResNet_separable.ipynb)|76.61%|5, mean|
 |128|20|[depthwise(x4)](https://github.com/liuyao12/imagenette_experiments/blob/master/ResNet_separable.ipynb)|86.27%|5, mean|
