@@ -160,7 +160,7 @@ Size | Epochs | URL | Accuracy | # Runs
 
 ### Imagewoof Leaderboard
 
-| Size (px) | Epochs | URL | Accuracy | # Runs |
+| Size | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
 |128|5|[depthwise(x6)](https://github.com/liuyao12/imagenette_experiments/blob/master/ResNet_separable.ipynb)|76.61%|5, mean|
 |128|20|[depthwise(x4)](https://github.com/liuyao12/imagenette_experiments/blob/master/ResNet_separable.ipynb)|86.27%|5, mean|
