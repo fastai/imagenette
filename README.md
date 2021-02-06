@@ -136,7 +136,7 @@ imagewoof | Size | Epochs | URL | Accuracy
 ### Imagenette w/Label Noise = 50%
 
 imagewoof | Size | Epochs | URL | Accuracy
--- | -- | -- | --
+-- | -- | -- | -- | --
 0 | 128 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.665987
 0 | 128 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.793631
 0 | 128 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 0.508025
