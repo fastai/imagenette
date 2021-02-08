@@ -181,13 +181,13 @@ Size (px) | Epochs | URL | Accuracy | # Runs
 
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
-|128|5|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/682c1e5367c2779f3ed0f8a0dc15a5abd27d5a0f/nbs/examples/swav_iwang_128.ipynb)|63.42%| 5,mean|
-|128|20|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/682c1e5367c2779f3ed0f8a0dc15a5abd27d5a0f/nbs/examples/swav_iwang_128.ipynb)|67.11%|3,mean|
-|128|80|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/682c1e5367c2779f3ed0f8a0dc15a5abd27d5a0f/nbs/examples/swav_iwang_128.ipynb)|66.78%|1|
-|128|200|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/682c1e5367c2779f3ed0f8a0dc15a5abd27d5a0f/nbs/examples/swav_iwang_128.ipynb)|64.87%|1|
-|192|5|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/eeab0ae53c47a5c9c66759d9350a66963606cacb/nbs/examples/swav_iwang_192.ipynb)|72.33%|5,mean|
-|192|20|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/eeab0ae53c47a5c9c66759d9350a66963606cacb/nbs/examples/swav_iwang_192.ipynb)|74.93%|3,mean|
-|192|80|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/eeab0ae53c47a5c9c66759d9350a66963606cacb/nbs/examples/swav_iwang_192.ipynb)|73.07%|1|
+|128|5|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/8486a7585cdc8e0421d836eafa1cf4ab57ee5001/examples/swav_iwang_128-new.ipynb)|72.94%|5,mean|
+|128|20|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/8486a7585cdc8e0421d836eafa1cf4ab57ee5001/examples/swav_iwang_128-new.ipynb)|72.18%|3,mean|
+|128|80|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/8486a7585cdc8e0421d836eafa1cf4ab57ee5001/examples/swav_iwang_128-new.ipynb)|69.53%|1|
+|128|200|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/8486a7585cdc8e0421d836eafa1cf4ab57ee5001/examples/swav_iwang_128-new.ipynb)|66.04%|1|
+|192|5|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/ceacae205cbc3466ff0e344520da5c0825c1b6f3/examples/swav_iwang_192-new.ipynb)|77.07%|5,mean|
+|192|20|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/ceacae205cbc3466ff0e344520da5c0825c1b6f3/examples/swav_iwang_192-new.ipynb)|77.81%|3,mean|
+|192|80|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/ceacae205cbc3466ff0e344520da5c0825c1b6f3/examples/swav_iwang_192-new.ipynb)|74.9%|1|
 |192|200|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/eeab0ae53c47a5c9c66759d9350a66963606cacb/nbs/examples/swav_iwang_192.ipynb)|71.77%|1|
 |256|5|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/159a11ba969beebeac41f71453615eb4bc9f9efc/nbs/examples/swav_iwang_224.ipynb)|73.17%|5,mean|
 |256|20|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/159a11ba969beebeac41f71453615eb4bc9f9efc/nbs/examples/swav_iwang_224.ipynb)|76.49%|3,mean|
