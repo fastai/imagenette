@@ -9,6 +9,7 @@
 ----
 
 **NB:** 
+- Versions of Imagenette and Imagewoof with noisy labels are now available as CSV files that come with the dataset.
 - The Imagenette and Imagewoof datasets have recently (Dec 6 2019) changed. They now have a **70/30 train/valid** split. 
 - The old versions (which have a much smaller validation set) are still available with the same URLs, but the URLs below point to the new versions. 
 - We've also added the [new Image网 dataset](#image网) (see below for details). The leaderboards below been updated using the new datasets, using a strong. Can you beat it?...
@@ -29,6 +30,8 @@ The '320 px' and '160 px' versions have their shortest side resized to that size
 - [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2-320.tgz)
 - [160 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2-160.tgz).
 
+The dataset also comes with a CSV file with 1%, 5%, 25%, and 50% of the labels randomly changed to an incorrect label. More information about the noisy labels are provided in the "noisy_labels" folder. Leaderboards for 5% noise and 50% noise are maintained below.
+
 Too easy for you? In that case, you might want to try [Imagewoof](#imagewoof).
 
 ### Imagewoof
@@ -38,6 +41,8 @@ Imagewoof is a subset of 10 classes from Imagenet that aren't so easy to classif
 - [Full size download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2.tgz); 
 - [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-320.tgz); 
 - [160 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-160.tgz). 
+
+The dataset also comes with a CSV file with 1%, 5%, 25%, and 50% of the labels randomly changed to an incorrect label. More information about the noisy labels are provided in the "noisy_labels" folder.
 
 Imagewoof too easy for you too?!? Then get your hands on [Image网](#image网).
 
