@@ -30,7 +30,7 @@ The '320 px' and '160 px' versions have their shortest side resized to that size
 - [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2-320.tgz)
 - [160 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2-160.tgz).
 
-The dataset also comes with a CSV file with 1%, 5%, 25%, and 50% of the labels randomly changed to an incorrect label. More information about the noisy labels are provided in the "noisy_imagenette" folder. Leaderboards for 5% noise and 50% noise are maintained below.
+The dataset also comes with a CSV file with 1%, 5%, 25%, and 50% of the labels randomly changed to an incorrect label. More information about the noisy labels are provided in the "noisy_labels" folder. Leaderboards for 5% noise and 50% noise are maintained below.
 
 Too easy for you? In that case, you might want to try [Imagewoof](#imagewoof).
 
@@ -42,7 +42,7 @@ Imagewoof is a subset of 10 classes from Imagenet that aren't so easy to classif
 - [320 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-320.tgz); 
 - [160 px download](https://s3.amazonaws.com/fast-ai-imageclas/imagewoof2-160.tgz). 
 
-The dataset also comes with a CSV file with 1%, 5%, 25%, and 50% of the labels randomly changed to an incorrect label. More information about the noisy labels are provided in the "noisy_imagenette" folder.
+The dataset also comes with a CSV file with 1%, 5%, 25%, and 50% of the labels randomly changed to an incorrect label. More information about the noisy labels are provided in the "noisy_labels" folder.
 
 Imagewoof too easy for you too?!? Then get your hands on [Image网](#image网).
 
