@@ -108,7 +108,7 @@ Generally you'll see +/- 1% differences from run to run since it's quite a small
 
 | Size (px) | Epochs | URL | Accuracy | # Runs |
 |--|--|--|--|--|
-|128|5|[fastai2 train_imagenette.py 2020-10 (mini net)](https://github.com/pete88b/data-science/blob/master/fastai-things/train-imagenette-mininet.ipynb)|85.77%|5, mean|
+|128|5|[fastai2 train_imagenette.py 2020-10 + MaxBlurPool + tuned hyperparams](https://github.com/radekosmulski/imagenette-LB-entry/blob/main/imagenette%20-%205%20epochs.ipynb)|87.43%|5, mean|
 |128|20|[fastai2 train_imagenette.py 2020-01 + MaxBlurPool](https://github.com/ducha-aiki/imagewoofv2-fastv2-maxpoolblur/blob/master/fastai2-imagenette-train-maxblurpool.ipynb)|91.57%|5, mean|
 |128|80|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|93.55%|1|
 |128|200|[fastai2 train_imagenette.py 2020-01](https://github.com/fastai/imagenette/blob/master/2020-01-train.md)|94.24%|1|
