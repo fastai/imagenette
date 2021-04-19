@@ -136,10 +136,10 @@ Size (px) | Epochs | URL | Accuracy | # Runs
 192 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 90.65% | 1
 192 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 91.01% | 1
 192 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 91.08% | 1
-256 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 84.61% | 1
+256 | 5 | [SESEMI](https://github.com/FlyreelAI/sesemi/blob/7e905650454529e10e9163a5c12f4056c9fce721/leaderboards/FastAI-Noisy-Imagenette-Results.md) | 88.87% &pm; 0.67 | 5,mean&pm;std
 256 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 91.39% | 1
-256 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 91.59% | 1
-256 | 200 |[baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 92.03% | 1
+256 | 80 | [SESEMI](https://github.com/FlyreelAI/sesemi/blob/7e905650454529e10e9163a5c12f4056c9fce721/leaderboards/FastAI-Noisy-Imagenette-Results.md) | 92.95% &pm; 0.12 | 3,mean&pm;std
+256 | 200 |[SESEMI](https://github.com/FlyreelAI/sesemi/blob/7e905650454529e10e9163a5c12f4056c9fce721/leaderboards/FastAI-Noisy-Imagenette-Results.md) | 93.96% &pm; 0.23 | 3,mean&pm;std
 
 
 ---
@@ -156,10 +156,10 @@ Size (px) | Epochs | URL | Accuracy | # Runs
 192 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 79.34% | 1
 192 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 52.51% | 1
 192 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 53.71% | 1
-256 | 5 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 65.04% | 1
+256 | 5 | [SESEMI](https://github.com/FlyreelAI/sesemi/blob/7e905650454529e10e9163a5c12f4056c9fce721/leaderboards/FastAI-Noisy-Imagenette-Results.md) | 76.72% &pm; 0.83 | 5,mean&pm;std
 256 | 20 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 79.21% | 1
-256 | 80 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 53.96% | 1
-256 | 200 | [baseline](https://github.com/tmabraham/noisy_imagenette/blob/main/baseline/baseline-01-18-2021.md) | 55.41% | 1
+256 | 80 | [SESEMI](https://github.com/FlyreelAI/sesemi/blob/7e905650454529e10e9163a5c12f4056c9fce721/leaderboards/FastAI-Noisy-Imagenette-Results.md) | 57.76% &pm; 0.39 | 3,mean&pm;std
+256 | 200 | [SESEMI](https://github.com/FlyreelAI/sesemi/blob/7e905650454529e10e9163a5c12f4056c9fce721/leaderboards/FastAI-Noisy-Imagenette-Results.md) | 61.48% &pm; 0.33 | 3,mean&pm;std
 
 ----
 
@@ -196,5 +196,5 @@ Size (px) | Epochs | URL | Accuracy | # Runs
 |192|200|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/eeab0ae53c47a5c9c66759d9350a66963606cacb/nbs/examples/swav_iwang_192.ipynb)|71.77%|1|
 |256|5|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/e84ce745d86aa20963492dbf99a93e5a1d8a12e7/examples/training_swav_iwang.ipynb)|79.56%|5,mean|
 |256|20|[SwAV](https://github.com/KeremTurgutlu/self_supervised/blob/d6c444027369b21d51f3dca66a14027bde79c52e/examples/swav_iwang_224-new.ipynb)|79.2%|3,mean|
-|256|80|[SESEMI](https://github.com/FlyreelAI/sesemi/blob/e6b5882c258721da087d0f579f6886c35f546aff/FastAI-Imagewang-Results.md)|77.61% &pm; 0.34|5,mean&pm;std|
-|256|200|[SESEMI](https://github.com/FlyreelAI/sesemi/blob/e6b5882c258721da087d0f579f6886c35f546aff/FastAI-Imagewang-Results.md)|77.79% &pm; 0.38|3,mean&pm;std|
+|256|80|[SESEMI](https://github.com/FlyreelAI/sesemi/blob/7e905650454529e10e9163a5c12f4056c9fce721/leaderboards/FastAI-Imagewang-Results.md)|78.41% &pm; 0.39|5,mean&pm;std|
+|256|200|[SESEMI](https://github.com/FlyreelAI/sesemi/blob/7e905650454529e10e9163a5c12f4056c9fce721/leaderboards/FastAI-Imagewang-Results.md)|79.27% &pm; 0.20|3,mean&pm;std|
