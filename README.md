@@ -12,7 +12,7 @@
 - Versions of Imagenette and Imagewoof with noisy labels are now available as CSV files that come with the dataset.
 - The Imagenette and Imagewoof datasets have recently (Dec 6 2019) changed. They now have a **70/30 train/valid** split. 
 - The old versions (which have a much smaller validation set) are still available with the same URLs, but the URLs below point to the new versions. 
-- We've also added the [new Image网 dataset](#image网) (see below for details). The leaderboards below been updated using the new datasets, using a strong. Can you beat it?...
+- We've also added the [Image网 dataset](#image网) (see below for details). The leaderboards below been updated using the new datasets, using a strong. Can you beat it?...
 
 ----
 
